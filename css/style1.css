@@ -1,0 +1,98 @@
+body{
+    background-image: linear-gradient(pink,blue);
+}
+
+#heading{
+        margin-top: 5 px;
+        text-align: center;
+        font-family:sans-serif;
+        color: whitesmoke;
+        text-shadow: 2px 2px #FF0000;
+    }
+#calculator{
+    width:420px;
+    height:620px;
+    background-color: darksalmon;
+    margin:40px auto;
+    border-radius: 10px;
+    box-shadow: 10px 20px lightsalmon;
+}
+
+#result{
+    height:180px;
+    padding:20px 20px;
+    border-radius: 10px;
+    background-color: beige;
+}
+
+#output{
+    padding:10px 10px;
+}
+#keyboard{
+    height:600;
+    padding: 1px 35px;
+}
+
+#output-values{
+    text-align:right;
+    font-size:xx-large;
+}
+
+#calculations-values{
+    text-align:right;
+    font-size:xx-large;
+}
+
+.operator,.digit,.empty{
+    height: 55px;
+    width:55px;
+    margin:15px;
+    float:left;
+    border-width: 0px;
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+.digit,.operator{
+    cursor:pointer;
+}
+
+.empty{
+    background-color:darksalmon;
+}
+
+.operator{
+    background-color: lightgray;
+}
+
+.operator:focus,.digit:focus,.empty:focus{
+    outline: none;
+}
+
+.operator:active,.digit:active{
+    color: gray;
+}
+
+#div{
+    background-color:palevioletred;
+}
+
+#mul{
+    background-color: plum;
+}
+
+#sub{
+    background-color: pink;
+}
+
+#add{
+    background-color: papayawhip;
+}
+
+#eq{
+    background-color: peachpuff;
+}
+
+.calculations-values{
+    color: white;
+}
